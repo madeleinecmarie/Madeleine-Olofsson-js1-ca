@@ -1,0 +1,31 @@
+.alert {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.danger {
+  color: #db635a;
+  border: solid 1px #db635a;
+  padding: 20px;
+}
+
+.success {
+  color: darkgreen;
+  border: solid 1px darkgreen;
+  padding: 20px;
+  /* transition: 2s; */
+}
+
+.warning {
+  color: orange;
+  border: solid 1px orange;
+  padding: 20px;
+}
+
+.information {
+  color: blue;
+  border: solid 1px blue;
+  padding: 20px;
+}

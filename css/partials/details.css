@@ -1,0 +1,35 @@
+.hide {
+  display: none;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: "one two";
+  margin-top: 200px;
+}
+
+.con {
+  grid-area: one;
+  display: inline-block;
+  align-content: center;
+  justify-self: center;
+  margin-top: 40px;
+}
+
+.background__image {
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.con p {
+  letter-spacing: 1px;
+  line-height: 15px;
+}
+
+.loading {
+  margin-top: 200px;
+}
